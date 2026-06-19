@@ -7,6 +7,11 @@ function Home({ data }) {
 
   return (
     <article className="page home">
+      <video className="home-video" controls preload="metadata">
+        <source src="/videos/oj-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
       <figure className="hero">
         <img src={`/images/${data.image}`} alt={data.caption[0]} />
         <figcaption>
