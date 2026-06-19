@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* Grey on the left, easing into teal and then blue toward the right,
+     echoing the original site's background behind the white page. */
+  background: linear-gradient(
+    to right,
+    #808080 0%,
+    #808080 50%,
+    #2a8f8f 85%,
+    #0b3d91 100%
+  );
+  background-attachment: fixed;
+  color: #111;
+  -webkit-font-smoothing: antialiased;
+}

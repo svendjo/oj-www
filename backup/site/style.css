@@ -1,0 +1,10 @@
+body{background-color:gray;}
+body{font-family:"times new roman",'serif';font-size:8pt;color:black;}
+small{color:black;}
+big{color:black;}
+a:visited{color:black;text-decoration:underline;}
+a:link{color:black;text-decoration:underline;}
+a:active{color:red;text-decoration:underline;}
+a:hover{color:red;text-decoration:none;}
+
+#overskrift1{background:9999CC;}
